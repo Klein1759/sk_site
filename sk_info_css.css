@@ -1,0 +1,212 @@
+.body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #eeeeee;
+  width: 960px;
+  margin: auto;
+}
+
+.email, .highlight {
+  font-weight: bold;
+}
+
+#rabbit_hole_body {
+  /*font-family: Verdana, Arial, sans-serif;*/
+  /*font-family: serif;
+  font-weight: bold;*/
+  font-family: Courier;
+  font-size: 14px;
+  color: #00d900;
+  background-color: #000000;
+  width: 960px;
+  margin: auto;
+}
+
+#_2048_body {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 16px;
+  color: #000000;
+  width: 960px;
+  margin: auto;
+  background-color: #e0e9d0;
+}
+#score_display {
+  width: 85px;
+  text-align: right;
+}
+
+#score, #score_display, #start {
+  float: left;
+}
+ #instructions {
+   float: right;
+}
+
+table {
+  /*border-collapse: collapse;*/
+  margin: auto;
+  clear: both;
+}
+
+td {
+  border: 1px solid #000000;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.top_filler {
+  width: 960px;
+  height: 200px;
+}
+
+.small_filler {
+  width: 960px;
+  height: 50px;
+}
+
+.bottom_filler {
+  width: 960px;
+  height: 500px;
+}
+
+.door_filler {
+  width: 960px;
+  height: 25px;
+}
+
+.header_info {
+  text-align: center;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.door1, .door2, .door3 {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 110px;
+  margin-right: 110px;
+  text-align: center;
+  /*line-height: 25px;*/
+  padding-top: 50px;
+}
+
+.door1:hover, .door2:hover, .door3:hover, .letter_link:hover {
+  background-color: #999999;
+}
+
+.italics {
+  font-style: italic;
+}
+
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+.resume, .letter, #rabbit_area {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skills_title, .education_title, .experience_title, .reference_name {
+  font-weight: bold;
+}
+
+ul {
+  list-style: circle;
+}
+
+.years {
+  float:right;
+  margin-right: 100px;
+}
+
+.skills_body, .education_body, .experience_body {
+  display: none;
+}
+
+.rabbit_hole {
+  height: 100px;
+  width: 100px;
+  color: #dddddd;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 95px;
+  margin-left: 430px;
+  margin-right: 430px;
+  background-color: #eeeeee;
+}
+
+.rabbit_hole:hover {
+  background-color: #000000;
+}
+
+.letter_link {
+  float: left;
+  width: 180px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.small_print {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.disclaimer_footer {
+  text-align: center;
+  font-size: 10px;
+  margin-left: 450px;
+  position:fixed;
+  bottom: 1px;
+  /*left: 480px;*/
+}
+
+.reference {
+  float:left;
+  width: 200px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#rabbit_area {
+  width: 760px;
+  height: 300px;
+  overflow: scroll;
+  overflow-x:hidden;
+  /*-ms-scrollbar-arrow-color: #00d900;
+  -ms-scrollbar-track-color: #000000;
+  -ms-scrollbar-base-color: #00d900;*/
+  scrollbar-arrow-color: #00d900;
+  scrollbar-track-color: #000000;
+  scrollbar-base-color: #00d900;
+}
+
+.input_command {
+  margin-left: 100px;
+}
+
+#enter_command {
+  color: #00d900;
+  background-color: #000000;
+}
+
+#submit_command {
+  color: #00d900;
+  background-color: #000000;
+}

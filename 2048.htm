@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Scott Klein 2048</title>
+  <link rel="stylesheet" type="text/css" href="sk_info_css.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<body id="_2048_body">
+    <div class="header_info">
+            <!-- Address Header -->
+            <a href="default.htm" title="Back to main page" class="name">Scott Klein</a><br>
+            <span class="address_street">41 Bick Road, Apt 2</span><br>
+            <span class="address_city_state">Fleetwood, PA  19522</span><br>
+            <span class="phone">610.987.6703</span><br>
+            <a href="mailto:scott.klein13@gmail.com?subject=In%20regards%20to%20your%20Resume&amp;body=Dear Mr. Klein," title="Send email to Scott" class="email">scott.klein13@gmail.com</a>
+    </div>
+    <div class="small_filler"></div>
+    <input type="button" id="instructions" value="Instructions" title="How to play: Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one. If a tile equals 2048 you win and the game is over">
+    <div id="score" title="Total Score">Score:&nbsp</div><div id="score_display">0</div>
+    <!-- grid table -->
+    <table>
+        <tr> <!-- Row 1 -->
+            <td id="_0"></td>
+            <td id="_1"></td>
+            <td id="_2"></td>
+            <td id="_3"></td>
+        </tr>
+        <tr> <!-- Row 2 -->
+            <td id="_4"></td>
+            <td id="_5"></td>
+            <td id="_6"></td>
+            <td id="_7"></td>
+        </tr>
+        <tr> <!-- Row 3 -->
+            <td id="_8"></td>
+            <td id="_9"></td>
+            <td id="_10"></td>
+            <td id="_11"></td>
+        </tr>
+        <tr> <!-- Row 4 -->
+            <td id="_12"></td>
+            <td id="_13"></td>
+            <td id="_14"></td>
+            <td id="_15"></td>
+        </tr>
+    </table>
+    <input type="button" id="start" value="Start Game" title="Click to start or restart the game">
+
+    <script src="twenty48_js.js"></script>
+</body>
+
+</html>
